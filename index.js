@@ -10,10 +10,10 @@ document.querySelectorAll("img")[1].setAttribute("src", image2);
 
 if (pd1 > pd2) {
 
-  document.querySelector("h1").textContent = "Player 1 wins";
+  document.querySelector("h1").textContent = "🚩Player 1 wins";
 } else if (pd2 > pd1) {
 
-  document.querySelector("h1").textContent = "Player 2 wins";
+  document.querySelector("h1").textContent = "Player 2 wins🚩";
 } else {
-  document.querySelector("h1").textContent = "Draw";
+  document.querySelector("h1").textContent = "🚩Draw🚩";
 }
